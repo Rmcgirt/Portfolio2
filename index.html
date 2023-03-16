@@ -1,37 +1,77 @@
 <!DOCTYPE html>
 <html>
 
+
+
 <head>
+  <title>My Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>My Portfolio</title>
+     <link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="style.css" /></noscript>
 </head>
 
 <body>
     <H1>
         My Portfolio
     </H1>
-    <!-- 
-      Directions:
-        1. Create a DIV element to contain the page content
-        2. Inside your DIV, create an H1 tag that contains your name as the text
-        3. Below your H1 tag, create an H2 tag that contains the content text "Software Developer"
-        4. Below your H2 tag, create an HR tag which will make a horizontal line
-        5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______")
-        6. Make the word "favorite" italicized
-        7. Make an image tag with the src attribute linked to a picture of yourself or of a placeholder image. Make sure you make an alt attribute too!
-        8. Create an H3 tag that says "About Me"
-        9. Create a paragraph tag that contains the "lorem ipsum" text. You will need to do a search for this text - it is long!
-        10. Create an H3 tag that says "My Projects"
-        11. Create an unordered list with 3 list items that say "Project 1", "Project 2", and "Project 3"
-        12. Add another H3 that contains "Contact Me" as text
-        13. Create a paragraph that contains a fake phone number, e.g., "Phone: (202) 555-1234"
-        14. Create a link tag (<a>) with a direction to mail to a fake email address. This is done by making a regular link, but in the href attribute, put mailto:fake@email.com (this opens up your email program with the TO field already filled out-try it!)
+    
+     <div>
+      <h1><strong>Richard McGirt</strong></h1>
+          <h2>Software Developer</h2>
+      <hr>
+      <p>
+        My <i>favorite</i> thing about programming isLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
 
-        BONUS: Try one of the following ideas if you finish early
-          - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
-          - In your contact me section, make the text "Phone:" and "Email:" bolded
-     -->
+  <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Place holder image" width="500" height="600">
+  
+  <h3>About me</h3>
+  <p>Taiyaki same everyday carry tempor, voluptate ut raclette. Roof party duis cray, iceland DIY blog et freegan consequat ea. Bespoke hammock PBR&B nisi polaroid vexillologist nulla anim gorpcore ut migas ugh etsy kickstarter. Jawn pour-over tacos pinterest. Sint authentic tempor vaporware air plant retro hoodie unicorn VHS williamsburg af anim. Cloud bread tilde mixtape shaman mustache trust fund velit. Pickled mollit locavore sus aliqua coloring book normcore authentic.</p>
+  
+  <h3>My Projects</h3>
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
+  <ol>
+  <li>Project 1</li>
+  <section>
+    <a href="https://github.com/rmcgirt55/burger"><img class="image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz1hX7x_DytT6-27WoEL0syaqa5DoL0XENrA&usqp=CAU">
+      <h3>Burger Menu</h3>
+      <p>Take a look at our menu</p>
+    </a>
+  </section>
+<br>
+  <li>Project 2 </li>
+  <section>
+    <a href="https://github.com/rmcgirt55/Cue2"><img class="image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ7n4KpqJVeCK6tBwjMxRmzoNOCoUN3VwXEQ&usqp=CAU">
+      <h3>Cue 2</h3>
+      <p>A social media application using the MERN full-stack</p>
+    </a>
+  </section>
+  <br>
+  <li>Project 3</li>
+  <section>
+    <a href="https://github.com/rmcgirt55/bamazon"><img class="image"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEX1ZgD////1YgD0WQD1YwD1XQD1XgD0VQD97Ob0VAD81cf4oX76vaf//fz+8Ov94tn4mHD6wq35qYr3kmf3h1X5sJT1bR7959/1axf3jmD3hE/+9fL3kWX83NH7zr72gUn6uaD2dTP7yLb82Mz5r5L5pob2civ7y7r2ez72fUH4l2/MLaGIAAAD0klEQVR4nO3ZWVviMBiG4TYrXdhBoQhUQEf9/z9wujHs6NhAx7me+8QLDpK8JE3zRc8DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvkAJo2VFa6OaHo9jRtvnXrqYt0phf7CU+v8JKaQarNv+kfbi1dRsWGntZIA1GTmcH6erjEStltVruPIaz6hsNLuQz/cX9Yan11kbqa27Euoxz48X8/l+S9ZrPC5We2TrLYVaRO9KvtoJPbkomukMm8soO9swndY8zHU7DhN6QVw29DhtKqOIuv1xNH1QtngJZrI/o3CbsFs3oWdf/G3GoJmMQmojxOGLTwRpNaxf9TdCPfqzIHoN7zl71Gs1qLGDIZmH3ZMw+GcyBtWQPlwsLCX/rHrfjyeyuY1VZc9g9RPrajwTNy0Hm73dKxw1NJHGvq1arah48NSyHMzMOmpcv++fKjpjc/eJzM6PUfnmn+Zdm6gcysrZiUvovZWaT+T0nud6ZWyy2nbdz1eQ7pcfhg5/aRsdRPTb/cTep0IzcpLuveSLOZSt8kPtt+FBR173MKPfSd/sjWdSGeltDvpNi1CiWkqOy4LgaBrzkP1E3uyZFMa+jg9/1vaoDNjbm0+XjLc+yZiVoZGSxnVXymg5ijtHfa1F2Y8uz8vOdtK9fu30bKn2GE+tu5Qqv7DYnP6Y7d42UfU23NzitSVsetJzqRs/KVv7ekgYad8Hi3O/40pvA4lh+c2NinPthWe6L3VWg3edn5S/kVOZbOomw/TCfcXjcrdvVovUxZn0PLk83lUPY4bjp4cgv+77WtDyjtAuo3h+8bYiW6B7bZniu1lwq4DF49i6ljGXX/c9PXu2uNk0WVi1N8Tsg8i+zGs9O3kbblaXsxU2BwfF6kDj8m1/StinTzNWSedhP36JPpJkJLbMe5IMo5e4H3a/0kpqDpejLJbQ2v1GepQxGF5dq660x+ZoQylrw/YdTsbCLi/vOY60XuTJdqKLm5XlXc7+Sk7ik4toh9ZnCzWZd9m71zVuVpN+3GixztLzxXZxYovueU8tsqP/9Z3wOxaj4MLhwQyybfTOF/FZ+bbsuwy5GEp9+TEzH14DlwxKB8nJOflbZqur8XJNXRRlMzkZnKk9/sZ8/Gw/idesvORJxvNvba/teTqS8if8X7cofaL+X22w3VX0HGjnNeYNKaGlfXgaf3bc9GfdX5vpxMqf+T/5omSw+iHJDqBxmJ1Ad8LsqDqIkonOs/2gmTtvV0Xs6Lzc+E4NCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgJ/jN9maKoZbSZeQAAAAAElFTkSuQmCC">
+      <h3>Bamazon</h3>
+      <p>In terminal node bamazonCustomer.js select view items or leave.</p>
+    </a>
+  </section>
+</ol>
+  <h3>Contact Me</h3>
+  <br>
+  <br>
+  <p>Mobile number
+     <a href="tel: +1233432568">+1 (123) 343-2568</a>
+    <br>
+    <a>
+      <a href="myname@companyname"> myname@companyname</a>
+  </p>
+      
+    </div>
+
 </body>
 
 </html>
